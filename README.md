@@ -1,12 +1,41 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🛍️ Product Comparison Web App
 
-Currently, two official plugins are available:
+A responsive, interactive web app built with **React + Vite**, allowing users to browse a list of products and compare up to three of them side-by-side. Includes a smooth light/dark mode toggle, search functionality, and mobile responsiveness.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🧾 **Product List View** with:
+  - Product Name, Brand, Image, Price, and Features
+  - "Add to Compare" toggle (up to 3 products)
+
+- 🧮 **Compare Page**:
+  - Automatically navigates to `/compare` once 2+ items are selected
+  - Side-by-side comparison of selected products
+  - Remove individual items or clear all
+
+- 🌗 **Dark/Light Mode Toggle**:
+  - Smooth animated switch
+  - Persists theme via `localStorage`
+
+- 🔍 **Search Filter**:
+  - Real-time filtering of products
+
+- 📱 **Responsive Design**:
+  - Optimized for mobile, tablet, and desktop using Tailwind’s utility classes
+
+---
+
+## ⚙️ Setup Instructions
+
+> Ensure you have Node.js installed
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/product-comparison-app.git
+cd product-comparison-app
+
+

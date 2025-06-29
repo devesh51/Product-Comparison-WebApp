@@ -39,3 +39,14 @@ git clone https://github.com/your-username/product-comparison-app.git
 cd product-comparison-app
 
 
+Folder Structure 
+src/
+│
+├── assets/                 # Images used for products
+├── components/             # ProductCard, ProductList, ComparisonView
+├── context/ThemeContext.jsx
+├── data/products.js        # Static product data
+├── App.jsx
+├── main.jsx
+└── index.css               # Tailwind setup + custom styling
+
